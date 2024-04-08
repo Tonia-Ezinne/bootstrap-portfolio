@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
+
+    <title>Document</title>
+  </head>
+  <body>
+    <header class="bg-info-subtle vh-100">
+      <nav class="navbar navbar-expand-lg bg-transparent">
+        <div class="container">
+          <a class="navbar-brand h2 fs-1 text-success" href="."
+            >TONIA<span class="text-info">-EZINNE</span></a
+          >
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div
+            class="collapse navbar-collapse d-lg-flex justify-content-end"
+            id="navbarNav"
+          >
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link fs-5" aria-current="page" href="#">ABOUT</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link fs-5" href="#CONTACT">CONTACT</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link fs-5" href="#PROJECTS">PROJECT</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <!-- hero section -->
+      <div
+        class="container d-flex align-items-center justify-content-between mt-5 h-75"
+      >
+        <div class="text-start">
+          <h1 class="display-1 fw-bolder">Ezinne</h1>
+          <h2 class="display-3 text-secondary">Fullstack Developer</h2>
+          <p class="fs-4 text-capitalize">
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cumque
+            optio dolore nobis laudantium assumenda accusamus, itaque voluptatum
+            hic veritatis sunt?
+          </p>
+          <a href="mailto:toniaaguocha@gmail.com" class="btn btn-outline-info"
+            >Get In Touch</a
+          >
+          <div class="mt-3">
+            <!-- linkdin -->
+            <a href="https:/linkdin.com" class="text-decoration-none text-info"
+              ><i class="bi bi-linkedin fs-3"></i
+            ></a>
+            <a href="https://twitter.com" class="text-decoration-none text-info"
+              ><i class="bi bi-twitter fs-3"></i
+            ></a>
+            <!-- ig facebook -->
+            <a
+              href="https://facebook.com"
+              class="text-decoration-none text-info"
+              ><i class="bi bi-facebook fs-3"></i
+            ></a>
+            <a
+              href="https://instagram.com"
+              class="text-decoration-none text-info"
+              ><i class="bi bi-instagram fs-3"></i
+            ></a>
+          </div>
+        </div>
+        <div class="d-none d-md-block">
+          <img
+            src="https://www.nairaland.com/attachments/12420673_img20200921215352_jpegf39f0c1af403e581a7f3c23608eeeaff"
+            width="400px"
+            alt="Fine Girl"
+            class="w-100"
+          />
+        </div>
+      </div>
+    </header>
+    <main>
+      <!-- about section -->
+      <section id="about" class="bg-secondary-subtle py-4">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-6 d-none d-lg-block">
+              <img
+                src="https://www.nairaland.com/attachments/12420673_img20200921215352_jpegf39f0c1af403e581a7f3c23608eeeaff"
+                width="400px"
+                class="img-fluid"
+                alt="About me"
+              />
+            </div>
+            <div class="col-lg-6">
+              <h2 class="text-info">About Me</h2>
+              <hr />
+              <p class="lh-lg">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                Beatae, asperiores praesentium! Dolorum quam porro nostrum fuga
+                laudantium eligendi reprehenderit autem, modi voluptas!
+                Temporibus, quasi? Ab dolor sit natus minus laboriosam illo, ea
+                distinctio saepe recusandae quos nemo quia sunt odit quibusdam
+                quisquam modi ut neque aspernatur sed architecto nulla nostrum?
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- contact section -->
+      <section id="contact" class="bg-info-subtle py-4">
+        <div class="container">
+          <div class="row justify-content-center">
+            <h2 class="text-center">Contact Me</h2>
+            <div class="col-md-6">
+              <form class="shadow-lg p-4 rounded-4">
+                <label for="name" class="form-label mt-2">Full Name</label>
+                <input
+                  type="text"
+                  id="name"
+                  placeholder="Jane Doe"
+                  class="form-control"
+                />
+                <label for="email" class="form-label mt-2">Email Address</label>
+                <input
+                  type="email"
+                  id="email"
+                  placeholder="abc@example.com"
+                  class="form-control"
+                />
+                <label for="msg" class="form-label mt-2">Message</label>
+                <textarea
+                  placeholder="write Message"
+                  id="msg"
+                  cols="30"
+                  rows="10"
+                  class="form-control"
+                ></textarea>
+                <button
+                  class="btn btn-info mt-4 text-white fs-5 mx-auto d-block w-100"
+                >
+                  send Message
+                </button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <!-- project section -->
+    <section id="projects" class="bg-white py-4">
+      <h2 class="text-center">Projects</h2>
+      <div class="container">
+        <div class="row justify-content-between">
+          <div class="col-lg-3 my-3 mx-auto">
+            <div class="card m-auto" style="width: 18rem; height: 25rem">
+              <img
+                src="https://www.hostinger.com/tutorials/wp-content/uploads/sites/2/2020/06/Help-Scout_s-homepage-1024x477.webp"
+                class="card-img-top h-50"
+                alt="blog app"
+              />
+              <div class="card-body m-auto">
+                <h5 class="card-title">Blog App</h5>
+                <p class="card-text">
+                  Some quick example text to build on the card title and make up
+                  the bulk of the card's content.
+                </p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 my-3 mx-auto">
+            <div class="card m-auto" style="width: 18rem; height: 25rem">
+              <img
+                src="https://images.yourstory.com/cs/wordpress/2017/02/52-Blog.jpg"
+                class="card-img-top h-50"
+                alt="Blog Img"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Admin Dash Board</h5>
+                <p class="card-text">
+                  Some quick example text to build on the card title and make up
+                  the bulk of the card's content.
+                </p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 my-3 mx-auto">
+            <div class="card m-auto" style="width: 18rem; height: 25rem">
+              <img
+                src="https://demos.pixinvent.com/vuexy-angular-admin-template/landing/img/bg-img/dark.jpg"
+                class="card-img-top h-50"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title">E commerce Web</h5>
+                <p class="card-text">
+                  Some quick example text to build on the card title and make up
+                  the bulk of the card's content.
+                </p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="row justify-content-between">
+          <div class="col-lg-3 my-3 mx-auto">
+            <div class="card m-auto" style="width: 18rem; height: 25rem">
+              <img
+                src="https://jumpgrowth.com/wp-content/uploads/2020/05/The-Best-Weather-Forecast-App.jpg"
+                class="card-img-top h-50"
+                alt="blog app"
+              />
+              <div class="card-body m-auto">
+                <h5 class="card-title">Weather Forecasting App.</h5>
+                <p class="card-text">
+                  Some quick example text to build on the card title and make up
+                  the bulk of the card's content.
+                </p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 my-3 mx-auto">
+            <div class="card m-auto" style="width: 18rem; height: 25rem">
+              <img
+                src="https://static.vecteezy.com/system/resources/previews/013/247/522/non_2x/doodle-checklist-set-to-do-task-list-vector.jpg"
+                class="card-img-top h-50"
+                alt="Blog Img"
+              />
+              <div class="card-body">
+                <h5 class="card-title">To-do list.</h5>
+                <p class="card-text">
+                  Some quick example text to build on the card title and make up
+                  the bulk of the card's content.
+                </p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 my-3 mx-auto">
+            <div class="card m-auto" style="width: 18rem; height: 25rem">
+              <img
+                src="https://stream-blog-v2.imgix.net/blog/wp-content/uploads/4cca81a688024184c134e8fc9e4ad922/Building-WhatsApp-Clone0-2400x1350px.png?auto=format&auto=compress"
+                class="card-img-top h-50"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title">WhatsApp Web Clone</h5>
+                <p class="card-text">
+                  Some quick example text to build on the card title and make up
+                  the bulk of the card's content.
+                </p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- add additional 3 image -->
+    <!-- List out the skills that you have eg css -->
+
+    <section id="Skilss" class="bg-white py-4">
+      <div class="container">
+        <h1 class="text-center">Skills</h1>
+        <div class="row">
+          <div class="col-lg-6 d-none d-lg-block">
+            <img
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRBNsuZfAAnGlzPtEgIXycNlaVs03cAJf3dOmKoWansmw&s"
+              width="500px"
+              alt="Tech skills"
+            />
+          </div>
+
+          <div class="col-lg-6 d-lg-flex gap-4">
+            <div id="Frontend">
+              <h1>Frontend</h1>
+              <hr />
+              <p>CSS</p>
+              <p>Javascript</p>
+              <p>Html</p>
+              <p>communication</p>
+            </div>
+
+            <div id="Backend">
+              <h1>Backend</h1>
+              <hr />
+              <p>Java</p>
+              <p>Apis</p>
+              <p>Version Control</p>
+              <p>Backend Development</p>
+            </div>
+            <div id="softskill">
+              <h1>SoftSkill</h1>
+              <hr />
+              <p>Personal Solving Skills</p>
+              <p>Leadership Skills</p>
+              <p>Emotional Intelligence</p>
+              <p>Adaptability</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <footer id="Projeects" class="by-white py-4">
+        <div class="container text-center">
+          <h2 class="text-info">Tonia Ezinne</h2>
+          <p>© 2024 All Rights REserved</p>
+        </div>
+      </footer>
+    </section>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
